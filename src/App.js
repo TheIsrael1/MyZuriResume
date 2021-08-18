@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'
+import Sidebar from './components/SideBar';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection'
+import ResumeSection from './components/ResumeSection';
+import Footer from './components/Footer';
 import './App.css';
 
-function App() {
+const App = ()=> {
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = ()=>{
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Sidebar isOpen={isOpen} toggle={toggle}/>
+    <Navbar toggle={toggle}/>
+    <HeroSection />
+    <ResumeSection /> 
+    <Footer />
+    </>
   );
 }
 
