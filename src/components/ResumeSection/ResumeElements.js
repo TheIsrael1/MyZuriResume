@@ -48,7 +48,7 @@ display: flex;
   grid-area: col1;
  `
   export const Column2 = styled.div`
-  margin-bottom: 15px;
+  margin: 42px 0;
   padding: 0 15px;  
   grid-area: col2;
  `
@@ -92,7 +92,7 @@ display: flex;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin: 3rem 0;
+  margin: 2rem 0;
   
   @media  @media screen and (max-width: 768px){
     margin: 64px 0;

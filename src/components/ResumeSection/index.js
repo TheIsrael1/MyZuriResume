@@ -56,7 +56,7 @@ const ResumeSection = () =>{
                             <ListItem>
                             <DiReact size="3rem"/>
                             <ListContainer>
-                                <ListTitle>Front-end</ListTitle>
+                                <ListTitle>Frontend</ListTitle>
                                 <ListParagraph>
                                 Experience with <br />
                                 React.js
@@ -77,8 +77,6 @@ const ResumeSection = () =>{
                         <BottomLine>Here we're creative</BottomLine>
                         <TopLine>
                         <LogoLink href="https://internship.zuri.team/"><Logo src={Zuri}/></LogoLink>
-                        <LogoLink href="https://hng.tech/"><Logo src={Hng}/></LogoLink>
-                        <LogoLink href="https://ingressive.org/"><Logo src={I4G}/></LogoLink>
                         </TopLine>
                         </Column2>
                     </ResumeRow>
