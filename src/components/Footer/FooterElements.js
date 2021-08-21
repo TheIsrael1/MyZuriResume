@@ -10,15 +10,16 @@ padding: 40px 24px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+// align-items: space-between;
 max-width: 1100px;
-margin: 0;
+margin: 0 auto;
 `
 export const LinkItem = styled.a`
     text-decoration: none;
 	font-size: 18px;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
+
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
@@ -37,12 +38,13 @@ export const LinkItem = styled.a`
 
 `
 export const LinkList = styled.ul`
-	// border-top: 1px solid rgba(255, 255, 255, 0.1);
   	display: grid;
 	grid-template-columns: repeat(2, minmax(85px, 220px));
-	gap: 5px;
-  padding: 40px 0 28px;
-
+	gap: auto;
+	@media screen and (min-width: 768px){
+		margin: 0 auto;
+	}
+ 	 padding: 40px 0 28px;
 	@media screen and (max-width: 768px) {
 		width: 80%;
 		padding: 32px 12px 16px;
