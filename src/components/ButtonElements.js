@@ -6,7 +6,7 @@ export const Button = styled(Link)`
  border-radius: 50px;
  background: #722655;
  wite-space: no-wrap;
- padding: 6px;
+ padding: 6px 10px;
  color: #fff;
  font-size: 20px;
  outline: none;

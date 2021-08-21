@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
  justify-content: center;
  align-items: center;
  padding: 0 30px;
- height: 800px;
+ height: 100vh;
  position: relative;
  z-index:1;
 
@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
    left: 0;
    right: 0;
    bottom: 0;
-   background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+   background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
    z-index: 2;
  }
 
@@ -55,7 +55,8 @@ export const HeroContainer = styled.div`
 
  export const HeroH1 = styled.h1`
  color: #fff;
- font-size: 48px;
+ font-family: 'Rampart One', cursive;
+ font-size: 60px;
  text-align: center;
 
  @media screen and (max-width: 768px){
@@ -63,7 +64,7 @@ export const HeroContainer = styled.div`
  }
 
  @media screen and (max-width: 480px){
-  font-size: 32px;
+  font-size: 40px;
  }
  `
 
@@ -71,11 +72,12 @@ export const HeroContainer = styled.div`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
+  font-family: ;
   text-align: center;
   max-width: 600px;
  
     @media screen and (max-width: 768px){
-  font-size: 24px;
+  font-size: 20px;
  }
 
  @media screen and (max-width: 480px){

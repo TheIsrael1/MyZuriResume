@@ -17,10 +17,9 @@ export const ResumeWrapper = styled.div`
  height: 100vh;
  width: 100%;
  max-width: 1100px;
- margin-right: auto;
+ margin-right: 0;
  margin-left: auto;
  pading 0 24px;
- justify-content: center;
 
  @media screen and (max-width: 768px){
     height: auto;
@@ -31,6 +30,7 @@ export const ResumeRow = styled.div`
  display: grid;
  grid-auto-columns: minmax(auto, 1fr);
  align-items: center;
+ justify-content: space-around;
  grid-template-areas: "col1 col2";
 
  @media screen and (max-width: 768px){
@@ -38,7 +38,7 @@ export const ResumeRow = styled.div`
  }
 `
 export const ResumeBtn = styled.div`
-margin-top: 32px;
+margin-top: 6px;
 display: flex;
 
 `
@@ -82,7 +82,7 @@ display: flex;
  `
  export const Subtext = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 24px;
   color: #010606
@@ -118,9 +118,9 @@ export const ListContainer = styled.div`
 `
 
 export const ListTitle = styled.h4`
-  padding: 8px 0;
+  padding: 2px 0;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #280f27;
@@ -220,7 +220,7 @@ export const Button = styled.a`
  border-radius: 50px;
  background: #722655;
  wite-space: no-wrap;
- padding: 6px;
+ padding: 6px 10px;
  color: #fff;
  font-size: 20px;
  outline: none;
