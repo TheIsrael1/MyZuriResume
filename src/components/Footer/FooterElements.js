@@ -12,7 +12,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 max-width: 1100px;
-margin: 0 auto;
+margin: 0;
 `
 export const LinkItem = styled.a`
     text-decoration: none;
