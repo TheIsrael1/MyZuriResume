@@ -35,6 +35,11 @@ const ResumeSection = () =>{
     const onHover = ()=> {
      setHover(!hover)
     }
+    const [hover2, setHover2] = useState(false)
+
+    const onHover2 = ()=> {
+     setHover2(!hover2)
+    }
         return(
             <>
             <ResumeContainer id="resume">
@@ -47,8 +52,13 @@ const ResumeSection = () =>{
                          </Subtext>
                                 <ResumeBtn><Button href="https://drive.google.com/file/d/1i5yXbG5jtLZQbwX1Y8AsD19uSuFI_dcH/view" onMouseEnter={onHover} onMouseLeave={onHover}
                                 >
-                                    Check out my CV {hover ? <ArrowForward /> : <ArrowRight />}
-                                </Button></ResumeBtn>
+                                    My CV {hover ? <ArrowForward /> : <ArrowRight />}
+                                </Button>
+                                <Button href="https://github.com/TheIsrael1" onMouseEnter={onHover2} onMouseLeave={onHover2}
+                                >
+                                    My Projects {hover2 ? <ArrowForward /> : <ArrowRight />}
+                                </Button>
+                                </ResumeBtn>
                         </Column1>
                         <Column2>
                         <Heading>Stack</Heading>

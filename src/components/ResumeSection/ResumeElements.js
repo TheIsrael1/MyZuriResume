@@ -124,7 +124,7 @@ export const ListTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   color: #280f27;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 
 @media  @media screen and (max-width: 768px){
   font-size: 24px;
@@ -135,7 +135,7 @@ export const ListTitle = styled.h4`
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 `
 
@@ -220,7 +220,8 @@ export const Button = styled.a`
  border-radius: 50px;
  background: #722655;
  wite-space: no-wrap;
- padding: 6px 10px;
+ padding: 6px 16px;
+ margin: 0 8px 2px 0;
  color: #fff;
  font-size: 20px;
  outline: none;
