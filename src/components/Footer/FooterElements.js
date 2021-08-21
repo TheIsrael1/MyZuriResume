@@ -40,12 +40,12 @@ export const LinkList = styled.ul`
 	// border-top: 1px solid rgba(255, 255, 255, 0.1);
   	display: grid;
 	grid-template-columns: repeat(2, minmax(85px, 220px));
-	gap: 40px;
-  	padding: 40px 0 28px;
+	gap: 5px;
+  padding: 40px 0 28px;
 
 	@media screen and (max-width: 768px) {
-		width: 100%;
-		padding: 32px 4px 16px;
+		width: 80%;
+		padding: 32px 12px 16px;
 		gap: 16px;
 	}
 `
