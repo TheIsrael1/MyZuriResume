@@ -1,3 +1,10 @@
+# Zuri Resume 👨‍💻
+simple portfolio for hng internship
+
+## Stack
+React, styled components
+## Live link [zuri Resume](https://epic-shaw-6cd75e.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
